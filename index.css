@@ -1,0 +1,441 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(233, 230, 230);
+}
+#All {
+  display: flex;
+  justify-content: left;
+}
+#All {
+  overflow-x: hidden;
+}
+/* .left {
+  overflow-y: hidden;
+  height: 100vh;
+} */
+#All .left {
+  overflow-x: hidden;
+}
+#All .main {
+  overflow-x: hidden;
+}
+
+.bottom{
+  border-right: 10px solid #ff5722;
+}
+
+.name{
+  margin-right: 15px;
+}
+#All .left .top {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(41, 41, 99);
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#All .left .top #img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#All .left .top .name {
+  margin-top: 30px;
+}
+#All .left .top .name .name1 {
+  color: white;
+}
+#All .left .top .name .name2 {
+  color: rgb(65, 98, 65);
+}
+#All .left .bottom {
+  width: 300px;
+  height: 86vh;
+  background-color: rgb(8, 8, 38);
+}
+#All .left .bottom .bottom1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  padding-left: 30px;
+}
+#All .left .bottom .bottom2 {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+#All .left .bottom .bottom2 a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+#All .left .bottom .bottom2 a div {
+  margin: 10px;
+}
+#All .main .bar {
+  height: 50px;
+  width: 1300px;
+  background-color: rgb(8, 8, 38);
+  display: flex;
+  justify-content: left;
+}
+#All .main .bar .bar1 {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: orange;
+}
+#All .main .bar .bar1 div {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+#All .main .bar .bar2 {
+  color: white;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 24px;
+}
+#All .main .bar .bar3 {
+  width: 300px;
+  height: 50px;
+  background-color: orange;
+  margin-left: 900px;
+  display: flex;
+}
+#All .main .bar .bar3 div #img1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-left: 20px;
+}
+#All .main .bar .bar3 div {
+  padding-top: 10px;
+}
+#All .main .dashboard {
+  height: 50px;
+  width: 1300px;
+  background-color: white;
+}
+#All .main .dashboard .innerdashboard {
+  padding-top: 15px;
+  padding-left: 60px;
+  font-size: 18px;
+}
+#All .main .dmain {
+  height: 86vh;
+  width: 100%;
+  background-color: rgb(233, 230, 230);
+}
+#All .main .dmain .dmain1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+
+
+.sell1:hover{
+  scale: 1.1;
+  transition: 1s;
+}
+
+.sell2:hover{
+  scale: 1.1;
+  transition: 1s;
+}
+
+.sell3:hover{
+  scale: 1.1;
+  transition: 1s;
+}
+
+.bottom{
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.grid1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+  margin-top: 40px;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.sell1{
+  background-color: red;
+  background-image: linear-gradient(180deg ,#ff8776 0%,#ff6a88 55%, #ff2a51 100%);
+} 
+
+.sell2{
+  background-color: red;
+  background-image: linear-gradient(180deg, #8fd3f4 0%, #78a8f8 55%, #5684f7 100%);
+}
+
+.sell3{
+  background-color: brown;
+  background-image: linear-gradient(180deg, #ee9af7 0%,#c075f1 55%,#8c52ef);
+}
+
+
+
+
+.detail{
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+.mid h1{
+ font-size: 18px;
+ color: brown;
+}
+
+.detail h4{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.detail a{
+  background-color: #fff;
+  padding: 0 5px;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  font-size: 10px;
+  font-weight: 600;
+  width: 10px;
+  height: 18px;
+}
+
+.detail a:hover{
+  background-color: blue;
+  color: #fff;
+}
+
+.row{
+  margin-top: 50px;
+}
+
+.third{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.image img{
+  width: 80%;
+  height: 80%;
+}
+
+.row1{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+@media (max-width: 1025px) {
+  #All .main .dmain .dmain1 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 426px) {
+  #All .main .dmain .dmain1 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+#All .main .dmain .dmain1 .dmain11 {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+}
+@media (max-width: 1025px) {
+  #All .main .dmain .dmain1 .dmain11 {
+    margin: 60px;
+  }
+}
+@media (max-width: 321px) {
+  #All .main .dmain .dmain1 .dmain11 {
+    margin: 30px;
+  }
+}
+#All .main .dmain .dmain1 .dmain11 .dmain111 {
+  padding-top: 50px;
+  font-size: 44px;
+  color: orange;
+}
+#All .main .dmain .dmain1 .dmain11 .dmain112 {
+  padding-top: 50px;
+  font-size: 44px;
+  color: rgb(32, 79, 123);
+}
+#All .main .dmain .dmain1 .dmain11 .dmain113 {
+  padding-top: 50px;
+  font-size: 44px;
+  color: rgb(19, 130, 89);
+}
+#All .main .dmain .dmain1 .dmain11 .dmain114 {
+  padding-top: 50px;
+  font-size: 44px;
+  color: red;
+}
+#All .main .dmain .dmain2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+@media (max-width: 1025px) {
+  #All .main .dmain .dmain2 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 426px) {
+  #All .main .dmain .dmain2 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+#All .main .dmain .dmain2 .dmain21 {
+  width: 200px;
+  height: 150px;
+  margin: 40px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 0px 0px 10px black;
+}
+@media (max-width: 1025px) {
+  #All .main .dmain .dmain2 .dmain21 {
+    margin: 60px;
+  }
+}
+@media (max-width: 321px) {
+  #All .main .dmain .dmain2 .dmain21 {
+    margin: 30px;
+  }
+}
+#All .main .dmain .dmain2 .dmain21 .dmain211 {
+  height: 75px;
+  width: 200px;
+  background-color: rgb(41, 41, 99);
+}
+#All .main .dmain .dmain2 .dmain21 .dmain212 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#All .main .dmain .dmain2 .dmain21 .dmain221 {
+  height: 75px;
+  width: 200px;
+  background-color: rgb(21, 92, 143);
+}
+#All .main .dmain .dmain2 .dmain21 .dmain231 {
+  height: 75px;
+  width: 200px;
+  background-color: rgb(7, 48, 78);
+}
+#All .main .dmain .dmain2 .dmain21 .dmain241 {
+  height: 75px;
+  width: 200px;
+  background-color: red;
+}
+#All .pleft {
+  display: none;
+}
+@media (max-width: 1025px) {
+  #All .left {
+    display: none;
+  }
+  #All .pleft {
+    display: block;
+    background-color: rgb(41, 41, 99);
+  }
+}
+#All .pleft .gen {
+  padding-top: 30px;
+  color: white;
+}
+#All .pleft .img img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+#All .pleft div a {
+  text-decoration: none;
+  font-size: 24px;
+}
+#All .pleft .a {
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+.bell {
+  position: absolute;
+  top: 15px;
+  left: 1200px;
+  color: white;
+  font-size: 18px;
+}
+.envelope {
+  position: absolute;
+  top: 15px;
+  left: 1260px;
+  color: white;
+  font-size: 18px;
+}
+.question {
+  position: absolute;
+  top: 15px;
+  left: 1230px;
+  color: white;
+  font-size: 18px;
+}
+@media (max-width: 1025px) {
+  .bell {
+    display: none;
+  }
+  .envelope {
+    display: none;
+  }
+  .question {
+    display: none;
+  }
+}
+
+
+@media (max-width:425px){
+  .grid1{
+     display: grid;
+     grid-template-columns: auto;
+     width: 50%;
+     margin-left: 50px;
+  }
+}
+
+
+.hello{
+  margin-left: 100px;
+}
+
+.hello1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 2px solid blue;
+}
+
+
+
